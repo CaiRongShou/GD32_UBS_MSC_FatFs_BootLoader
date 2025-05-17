@@ -1,0 +1,4 @@
+arm-none-eabi-objcopy --update-section ER_IROM1="C:\Users\crs\AppData\Local\Temp\\project_9hvnjYjP.bin" "e:\GD32\01-Project\sd_fatfs_boot\build\debug\project.axf" "e:\GD32\01-Project\sd_fatfs_boot\build\debug\project.elf"
+
+arm-none-eabi-objcopy: e:\GD32\01-Project\sd_fatfs_boot\build\debug\project.elf: warning: allocated section `RW_IRAM1' not in segment
+
